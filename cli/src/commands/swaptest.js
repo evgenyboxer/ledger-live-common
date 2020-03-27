@@ -22,7 +22,7 @@ const test = async (deviceId, mock = false) => {
     fromParentAccount: undefined,
     toAccount: accountToReceiveSwap(mock),
     toParentAccount: undefined,
-    fromAmount: BigNumber("2"),
+    fromAmount: BigNumber("500000"),
     sendMax: false
   };
 
